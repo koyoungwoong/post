@@ -31,6 +31,7 @@ app.get('/write', function(req, res) {
 
   app.post('/add', function(req, res){
     db.collection('login').insertOne({email:req.body.email, password: req.body.password}, function(err, result){
+      if(err) return console.log("error");
       console.log("save complete...");
       console.log(req.body.email);
       console.log(req.body.password);
