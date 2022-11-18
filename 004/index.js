@@ -31,7 +31,7 @@ app.get('/write', function(req, res) {
 app.get('/list', function(req, res) {
   db.collection('login').find().toArray(function(err, result){
     console.log(result);
-    res.render('list.ejs', {loginfo : result})
+    res.render('list.ejs')
   })
 })
 
