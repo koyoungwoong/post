@@ -1,7 +1,6 @@
 {
   "name": "post",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +10,15 @@
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "mongodb": "^4.12.0"
-  }
+    "mongodb": "^4.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koyoungwoong/post.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koyoungwoong/post/issues"
+  },
+  "homepage": "https://github.com/koyoungwoong/post#readme",
+  "description": ""
 }
